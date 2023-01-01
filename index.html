@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 버킷리스트</title>
+    <!--https://fonts.google.com/?subset=korean 에서 폰트 결정해서 import 부분과 css 부분 복사해서 적으면 적용된다.-->
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+        
+        * {
+            font-family: 'Hahmlet', serif;
+        }
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24;
+            padding: 4px 14px;
+            border-radius: 8;
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160;
+            height: 160;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg-t3 center">
+    <h1 class="title">2023 신년계획</h1>
+    <p class="msg">올해는 다 이루기</p>
+    <!-- alt + shift + f : 라인 정렬-->
+    <div class="row flex-row wrap">
+        <!--class에 done 쓰면 완료된다.-->
+        <div class="bucket img1-t2 center">리눅스 마스터2급 취득</div>
+        <div class="bucket img2 center">보안기사 취득</div>
+        <div class="bucket img2-t5 center">다이어트</div>
+        <div class="bucket img1 center">나만의 웹사이트 만들기</div>
+        <div class="bucket img1 center">회화 공부하기</div>
+        <div class="bucket img2 center">운전면허증 갱신</div>
+    </div>
+</body>
+
+</html>
